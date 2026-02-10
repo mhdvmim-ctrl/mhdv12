@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p div {
+    width: 200px;
+    height: 200px;
+}
+.p-1 {
+    position: absolute;
+    background: blue;
+    left: 200px;
+    top: 200px;
+    z-index: 0;
+}
+.p-2 {
+    position: absolute;
+    background: red;
+    left: 300px;
+    top: 300px;
+    z-index: -1;
+}
+.p-3 {
+    position: absolute;
+    background: yellow;
+    left: 400px;
+    top: 400px;
+    z-index: -2;
+}
+.p-4 {
+    position: absolute;
+    background: gold;
+    left: 500px;
+    top: 500px;
+    z-index: -3;
+}
+
+a button {
+    width: 100px;
+    height: 50px;
+    border: 2px solid blue;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius:10px ;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background: red;
+}
+header nav {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right , blue , red);
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+
+.p p {
+    padding-top: 160px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+}   
+header nav h1 {
+    padding-left: 650px;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+}
